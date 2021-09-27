@@ -7,8 +7,8 @@ conda activate ali-tax
 echo ">> Virtual environment ali-tax created."
 
 # pip install -r requirements.txt
-curl -k https://chiselapp.com/user/PSG/repository/Tax-Analyzer-Framework/zip/e9d6c89693/Tax-Analyzer-Framework-e9d6c89693.zip -L -O
-curl -k https://chiselapp.com/user/WBG/repository/ALI-Tax-Analyzer/zip/fcc3b82bfb/ALI-Tax-Analyzer-fcc3b82bfb.zip -L -O
+curl -k https://chiselapp.com/user/PSG/repository/Tax-Analyzer-Framework/zip/94f0c71095/Tax-Analyzer-Framework-94f0c71095.zip -L -O
+curl -k https://chiselapp.com/user/WBG/repository/ALI-Tax-Analyzer/zip/287590ce94/ALI-Tax-Analyzer-287590ce94.zip -L -O
 echo ">> Packages downloaded."
 
 packages=(`ls Tax*.zip`, `ls ALI*.zip`)
